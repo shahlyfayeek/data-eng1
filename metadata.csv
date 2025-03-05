@@ -1,0 +1,56 @@
+Property,Value
+Number of Data Points - Store_dataset,600
+Name of Attributes - Store_dataset,"['Row_ID', 'Customer_ID', 'Customer_Name', 'Segment', 'Country', 'City', 'State', 'Postal_Code', 'Region', 'Product_ID', 'Category', 'Sub_Category', 'Product_Name', 'Sales', 'Order_ID', 'Order_Date', 'Ship_Date', 'Ship_Mode', 'Average_Spending', 'Total_Purchases']"
+Type of Attributes - Store_dataset,"Row_ID                int64
+Customer_ID          object
+Customer_Name        object
+Segment              object
+Country              object
+City                 object
+State                object
+Postal_Code           int64
+Region               object
+Product_ID           object
+Category             object
+Sub_Category         object
+Product_Name         object
+Sales               float64
+Order_ID             object
+Order_Date           object
+Ship_Date            object
+Ship_Mode            object
+Average_Spending    float64
+Total_Purchases     float64
+dtype: object"
+Numerical statistics,"             Sales  Average_Spending  Total_Purchases
+count   600.000000        600.000000       600.000000
+mean    224.382289        224.382289       849.763738
+std     512.768372        284.461615      1097.536469
+min       1.080000          1.744000         1.744000
+25%      15.552000         42.519950       132.709000
+50%      46.990000        147.318200       437.763000
+75%     195.783000        271.688800      1125.120000
+max    6354.950000       1979.928000      6412.770000"
+Categorical statistics,"       Customer_ID    Customer_Name   Segment        Country           City  \
+count          600              600       600            600            600   
+unique         238              238         3              1            129   
+top       TB-21520  Tracy Blumstein  Consumer  United States  New York City   
+freq            11               11       344            600             51   
+
+             State Region       Product_ID         Category Sub_Category  \
+count          600    600              600              600          600   
+unique          38      4              517                3           17   
+top     California   West  OFF-PA-10001970  Office Supplies      Binders   
+freq           124    203                4              355           79   
+
+              Product_Name        Order_ID Order_Date   Ship_Date  \
+count                  600             600        600         600   
+unique                 518             280        234         247   
+top     Panasonic Kx-TS550  CA-2018-117457  1/12/2018  15/06/2017   
+freq                     3               9         13          10   
+
+             Ship_Mode  
+count              600  
+unique               4  
+top     Standard Class  
+freq               353  "
